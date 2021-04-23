@@ -1,0 +1,88 @@
+/*元素选择器*/
+/*li{
+    color:pink;
+    width:400px;
+
+}*/
+
+/*id选择器*/
+/*#p1{
+    color:grey;
+}*/
+
+/*特定选择器*/
+/*a:hover{
+    color:pink;
+}*/
+
+/*设置全局字体和基础字号*/
+html{
+    font-size:10px;
+    font-family: 'Long Cang', cursive;
+
+}
+/*设置body样式，块级元素*/
+body{
+    color:#F97FBC;
+    background-color:#1C2A2A;
+    /*强制页面永远保持 600 像素宽*/
+    width:700px;
+    /*元素外边距，0：上下，auto:左右*/
+    margin:0 auto;
+    /*元素内边距，设置四个值来让内容四周产生一点空间,上、右、下、左*/
+    padding:0，20px,20px,20px;
+    /*body边框*/
+    border:2px,#7FF97F;
+
+}
+/*设置body中各元素字号颜色等属性*/
+/*设置标题居中*/
+h1{
+    font-size:60px;
+    text-align:center;
+}
+/*设置p,li字号*/
+p,li{
+    font-size:30px;
+    /* line-height 行高，后而可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */
+    line-height:2;
+    /*字间距*/
+    letter-spacing:1px;   
+}
+/*设置id="remark"的p标签居中,不写在上面是因为不想让li也居中*/
+#remark{
+    text-align:center; /*块级元素属性,p标签是块级元素*/
+}
+
+/*设置链接不同状态下的显示属性
+link:未访问;
+visited:已访问;
+hover:悬停;
+*/
+a{
+    text-decoration:none;
+    display:block;/*非块级元素，加此行以应用块级元素属性*/
+    text-align:center; /*块级元素属性*/
+}
+#steam:link,#steam:visited{
+    font-size:20px;
+    color:#F97FBC;   
+}
+#steam:hover{
+    font-size:30px;
+    color:#94F494;
+}
+/*设置图像居中*/
+img{
+    width:500px;
+    height:200px;
+    display:block;/*非块级元素，加此行以应用块级元素属性*/
+    margin:0 auto;/*块级元素属性*/
+}
+/*设置button按钮属性*/
+div{
+    display:block;/*非块级元素，加此行以应用块级元素属性*/
+    text-align:center; /*块级元素属性*/
+}
+
+
