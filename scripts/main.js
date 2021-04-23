@@ -36,7 +36,7 @@ myImg.onclick = function(){
 
 // 以上的个性化设置不完整，首次进入页面不会调用创建函数让用户先设置名字，不符合需求
 // 且当用户刷新页面或关闭页面后再进入，标题会被还原，刚刚设置的名字不见了
-//改进，，首次进入页面要先输入名字，存储名字
+//改进，首次进入页面要先输入名字，存储名字
 let myHeading = document.querySelector('h1');
 let myButton = document.querySelector('button');
 //程序是按照代码顺序执行的
